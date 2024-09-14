@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .top {
     background: url("images/top-img-bg.png") no-repeat center center/cover;
     height: 106.313rem;
