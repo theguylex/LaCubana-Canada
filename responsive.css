@@ -119,8 +119,13 @@
         transition: all .8s ease;
     }
 
+    .topHeader {
+        padding: ;
+    }
+
     .topHeader h1 {
         font-size: 5rem;
+        margin-top: -15rem;
     }
 
     .locations {
