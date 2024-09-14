@@ -98,7 +98,6 @@
         justify-content: space-between;
         margin-top: -245px;
         padding: 52% 0px;
-        position: static; /*remember "sticky" in main CSS*/
     }
 
     .topNav ul {

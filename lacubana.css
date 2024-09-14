@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
 }
 
 .logo {
@@ -180,10 +180,6 @@ body {
 .limage1, .limage2 {
     height: 18.913rem;
     width: 50.625rem;
-}
-
-.carousel-section {
-    /* border: 2px solid black; */
 }
 
 .carousel-container {
