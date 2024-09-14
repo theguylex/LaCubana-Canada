@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cubana</title>
+    <link rel="stylesheet" href="lacubana.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <a href="https://www.lacubana.ca/"><img src="images/CUBANA_LOGO_WHITE.png" alt=""></a>
+        </div>
+
+        <div class="topNav">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <ul class="navbar">
+                <li><a href="">HOME</a></li>
+                <li><a href="">LOCATIONS</a></li>
+                <li><a href="">MENU</a></li>
+                <li><a href="">PRIVATE EVENTS</a></li>
+                <li><a href="">TAKE OUT</a></li>
+                <li><a href="">BAR HABANA</a></li>
+            </ul>
+        </div>
+
+        <div class="topHeader">
+            <h1>Toronto's Cuban <br> Restaurant</h1>
+            <h3>CLASSIC CUBAN COMFORT FOOD & COCKTAILS</h3>
+        </div>
+    </div>
+
+    <div class="locations">
+        <div class="location1">
+            <h2 class="spot1">RONCESVALLES VILLAGE</h2>
+            <h4 class="address1">392 RONCENSVALLES AVE <span class="phone">416.538.7500</span></h4>
+            <h4 class="email1"><a href="mailto:info@lacubana.ca">info@lacubana.ca</a></h4>
+            <h4 class="openDays1">Sun - Mon : Closed <br> Tues - Thur : 12-8:30 <span class="spanDay">Fri - Sat: 12-9</span><h4>
+            <h4 class="services1">DINE IN. TAKE OUT. DELIVERY*. CATERING. BACK PATIO.</h4>
+            <h4 class="notice1">We love to host private patio parties up to 30 guests. Email for inquiries. <br> *Delivery is through third party apps.</h4>
+            <img src="images/location-Screenshot-1-La-Cubana.png" alt="" class="limage1">
+        </div>
+
+        <div class="location2">
+            <h2 class="spot2">OSSINGTON VILLAGE</h2>
+            <h4 class="address2">92 OSSINGTON AVE <span class="phone">416.537.0134</span></h4>
+            <h4 class="email2"><a href="mailto:ossington@lacubana.ca">ossington@lacubana.ca</a></h4>
+            <h4 class="openDays2">Mon : 12 to 9 / Tues:12 to 5 / Weds - Thur : 12 to 9 <br> Fri - Sat : 12 to 12 / Sun: 12 to 9</h4>
+            <h4 class="services2">DINE IN. TAKE OUT. DELIVERY*. CATERING. PRIVATE ROOM.</h4>
+            <h4 class="notice2">We love to host private parties in our back room up to 25 guests. Email <br> for inquiries. *Delivery is through third party apps.</h4>
+            <img src="images/location-Screenshot-1-La-Cubana.png" alt="" class="limage2">
+        </div>
+    </div>
+
+    <div class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="images/La+Cubana+-+Beer-+Final_SML.jpg" alt="" class="c-image1">
+                <img src="images/La+Cubana+-+Coffee+-+Final_SML.jpg" alt="">
+                <img src="images/La+Cubana+-+Mojito+-+Final_SML.jpg" alt="">
+            </div>
+
+            <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+
+            <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="menu-content">
+            <img src="images/Cubana_Logo_clr.png" alt="">
+        <p><strong>La Cubana are family run restaurants in Toronto serving homemade, meticulously prepared Cuban comfort food and cocktails in a <br> casual retro setting. From celebrated Chef Corinna Mozo, all of our food is made in house including our breads and desserts. We offer <br> unique cuban coffees and a full bar with Cuban cocktails and our very own brewed craft beer. <br> <br>For our food menus, please see <a href="https://ordering.chownow.com/order/23000/locations?add_cn_ordering_class=true" class="takeOutLink">“Take Out”</a> in the navigation. For our cocktail, wine and drink menu, you can view the <a href="https://www.lacubana.ca/s/COCKTAIL_PLACEMAT_MENU_2022_FINAL.pdf" class="pdfLink">PDF here</a>.</strong></p>
+        </div>
+    </div>
+    
+    <div class="privateEvents">
+        <div class="privateEvents-content">
+            <h1>Private Events</h1>
+            <h3>CHRISTMAS PARTIES. OFFICE PARTIES. BIRTHDAYS. BRIDAL<br> SHOWERS. YOU NAME IT</h3>
+            <a href="aldrin@lacubana.ca">¡EMAIL US FOR INQUIRIES!</a>
+        </div>
+    </div>
+
+    <div class="subscribe">
+        <div class="subscribe-container">
+            <img src="images/SirMidnight.png" alt="">
+            <div class="signUp">
+                <h1>SUBSCRIBE</h1>
+                <p>Sign up with your email to <br> receive infrequent news and <br> updates.</p>
+                <div class="input-btn">
+                    <input type="text" id="emailAdd" name="emailAdd" value="" placeholder="Email Address">
+                    <br>
+                    <button>SIGN UP</button>
+                    <h5>xoxo</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-contents">
+            <div class="icons">
+                <a href="http://instagram.com/lacubana_to"><i class="fa-brands fa-instagram insta"></i></a> 
+                <a href="https://www.facebook.com/deluxrestaurant/"><i class="fa-brands fa-facebook-f facebook"></i></a>
+            </div>
+            <h3>Copyright Arcade Agency Inc 2022</h3>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

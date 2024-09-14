@@ -1,0 +1,406 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.top {
+    background: url("images/top-img-bg.png") no-repeat center center/cover;
+    height: 106.313rem;
+}
+
+.topNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    height: 17vh;
+    margin-top: 3.9rem;
+}
+
+#menu-icon {
+    display: none;
+}
+
+.navbar {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.topNav li a {
+    text-decoration: none;
+    padding: 0rem 1.43rem;
+    font-family: arial;
+    font-size: 1.663rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.125rem;
+}
+
+.topNav li a:hover {
+    color: rgba(255, 255, 255, 0.43);
+}
+
+.topHeader {
+    text-align: center;
+    margin-top: 17.25%;
+}
+
+.topHeader h1 {
+    color: white;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-weight: 25rem;
+    font-size: 8rem;
+    letter-spacing: 0.625rem;
+    line-height: 8.95rem;
+    margin-top: 15rem;
+}
+
+.topHeader h3 {
+    color: white;
+    font-family: arial;
+    font-size: 2rem;
+    letter-spacing: 0.063rem;
+}
+
+.locations {
+    display: flex;
+    gap: 9.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(245, 248, 237);
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 10px 1%;
+}
+
+.location {
+    color: black;
+}
+
+.location1, .location2 {
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.spot1, .spot2 {
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+}
+
+.address1, .address2 {
+    font-family: arial;
+    font-size: 0.938rem;
+    font-weight: 700;
+    color: rgba(28, 28, 28, 0.8);
+    letter-spacing: 0.047rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.address1, .address2 {
+    font-family: arial;
+    font-size: 1.438rem;
+    font-weight: 700;
+    color: rgba(28, 28, 28, 0.8);
+    letter-spacing: 0.047rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.email1 a, .email2 a {
+    font-family: century;
+    font-size: 1.6rem;
+    /* font-weight: 400; */
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.02rem;
+    text-decoration: none;
+}
+
+.phone {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 0.938rem;
+}
+
+.openDays1, .openDays2 {
+    font-family: century;
+    font-size: 1.6rem;
+    /* font-weight: 400; */
+    letter-spacing: 0.02;
+    margin-top: 0.938rem;
+    margin-bottom: 0.938rem;
+}
+
+.spanDay {
+    margin-left: 0.938rem;
+}
+
+.services1, .services2 {
+    font-family: arial;
+    font-size: 1.638rem;
+    font-weight: 700;
+    color: rgba(28, 28, 28, 0.8);
+    letter-spacing: 0.047rem;
+    margin-top: 1.406rem;
+    margin-bottom: 1.406rem;
+}
+
+.notice1, .notice2 {
+    font-family: century;
+    font-size: 1.438rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-top: 0.938rem;
+    margin-bottom: 2.5rem;
+}
+
+.limage1, .limage2 {
+    height: 18.913rem;
+    width: 50.625rem;
+}
+
+.carousel-section {
+    /* border: 2px solid black; */
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.prev {
+    left: 0;
+}
+  
+.next {
+    right: 0;
+}
+
+.menu-content {
+    width: 100%;
+    background-color: rgb(245, 248, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 6rem 5%;
+}
+
+.menu img {
+    height: 24.3vh;
+}
+
+.menu p {
+    /* text-align: center; */
+    font-family: century;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+    letter-spacing: 0.02rem;
+    padding: 0px 1%;
+}
+
+.takeOutLink, .pdfLink {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.privateEvents {
+    background: url("images/private-events-img.png")no-repeat center center/cover;
+    height: 84.313rem;
+    width: 100%;
+}
+
+.privateEvents-content {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 11rem 0px;
+}
+
+.privateEvents h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7.3rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2rem;
+    /* line-height: 5rem; */
+    text-align: center;
+}
+
+.privateEvents h3 {
+    font-family: arial;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0.2rem;
+    /* line-height: 1.575rem; */
+}
+
+.privateEvents a {
+    margin-top: 2rem;
+    font-family: arial;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0.056rem;
+    /* line-height: 1.575rem; */
+    text-decoration: none;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.subscribe-container img {
+    height: 51vh;
+}
+
+.subscribe-container .signUp {
+    height: 26.625rem;
+    width: 230px;
+    background-color: rgb(245, 46, 59);
+}
+
+.signUp h1 {
+    color: white;
+    font-family: Impact, 'Arial Narrow Bold';
+    font-size: 2.688rem;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.875rem;
+}
+
+.signUp p {
+    color: white;
+    font-family: century;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.938rem;
+    margin-bottom: 1.25rem;
+}
+
+.signUp input {
+    /* text-align: start; */
+    font-family: century;
+    font-size: 0.938rem;
+    padding: 0.938rem;
+}
+
+#emailAdd {
+    height: 3rem;
+    width: 14rem;
+}
+
+.input-btn {
+    text-align: center;
+}
+
+.signUp button {
+    padding: 1.125rem 2.5rem;
+    border: none;
+    font-family: century;
+    font-size: 1.363rem;
+    color: white;
+    background-color: rgb(137, 214, 204);
+    border-radius: 3.125rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.signUp button:hover {
+    background-color: rgb(98, 151, 144);
+}
+
+.signUp h5 {
+    color: white;
+    font-size: 1.688rem;
+    left: 5.875rem;
+}
+
+.footer {
+    background: black;
+    color: white;
+    height: 236px;
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2.875rem;
+}
+
+.insta, .facebook {
+    color: white;
+}
+
+.footer h3 {
+    font-size: 1.6rem;
+}

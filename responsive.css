@@ -1,0 +1,151 @@
+/* Extra large screens */
+@media (min-width: 1920px) {}
+
+/* Desktops */
+@media (min-width:1200px) and (max-width:1919px) {}
+
+/* Laptops/Large tablets */
+@media (min-width:992px) and (max-width:1199px) {}
+
+/* small tablets */
+@media (min-width:768px) and (max-width:991px) {}
+
+/* Extra small devices */
+@media (min-width:481px) and (max-width:767px) {
+    #menu-icon {
+        display: block;
+        color: white;
+        font-size: 3rem;
+        z-index: 3;
+    }
+
+    .logo img {
+        position: relative;
+        z-index: 1;
+        height: 10vh;
+    }
+    
+    .topNav {
+        gap: 16rem;
+        justify-content: space-between;
+        margin-top: -245px;
+        padding: 23% 0px;
+        /* position: fixed; */
+    }
+
+    .topNav ul {
+        display: flex;
+        flex-direction: column;
+        line-height: 3rem;
+        position: absolute;
+        margin-top: 40rem;
+        height: 100%;
+        width: 100%;
+        left: 100%;
+        background-color: rgba(89, 220, 191, 0.97);
+        transition: all .8s ease;
+}
+
+    .topNav ul.open {
+        left: 0%;
+        transition: all .8s ease;
+    }
+
+    .locations {
+        padding: 0px 30%;
+        gap: 1rem;
+    }
+
+    .spot1, .spot2 {
+        font-size: ;
+    }
+
+    .limage1, .limage2 {
+        height: 90%;
+        width: 80vw;
+    }
+
+    .menu-content img {
+        height: 14.3vh;
+    }
+
+    .subscribe-container img {
+        height: 41vh;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* Mobile */
+@media (min-width:320px) and (max-width:480px) {
+    #menu-icon {
+        display: block;
+        color: white;
+        font-size: 3rem;
+        z-index: 3;
+    }
+
+    .logo img {
+        position: relative;
+        z-index: 1;
+        height: 10vh;
+    }
+    
+    .topNav {
+        gap: 16rem;
+        justify-content: space-between;
+        margin-top: -245px;
+        padding: 52% 0px;
+        position: static; /*remember "sticky" in main CSS*/
+    }
+
+    .topNav ul {
+        display: flex;
+        flex-direction: column;
+        line-height: 3rem;
+        position: absolute;
+        margin-top: 40rem;
+        height: 100%;
+        width: 100%;
+        left: 100%;
+        background-color: rgba(89, 220, 191, 0.97);
+        transition: all .8s ease;
+}
+
+    .topNav ul.open {
+        left: 0%;
+        transition: all .8s ease;
+    }
+
+    .topHeader h1 {
+        font-size: 5rem;
+    }
+
+    .locations {
+        padding: 0px 30%;
+        gap: 1rem;
+    }
+
+    .spot1, .spot2 {
+        font-size: ;
+    }
+
+    .limage1, .limage2 {
+        height: 90%;
+        width: 80vw;
+    }
+
+    .menu-content img {
+        height: 14.3vh;
+    }
+
+    .subscribe-container img {
+        height: 60vh;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
