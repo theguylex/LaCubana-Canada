@@ -1,6 +1,6 @@
 # LaCubana
 
-## La Cubana is a restaurant offering Cuban delicacies in Canada.
+## La Cubana is a restaurant offering Cuban delicacies in Canada
 
 * This recreation is carried out with reponsiveness in mind.
 
